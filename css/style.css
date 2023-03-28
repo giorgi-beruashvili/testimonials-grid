@@ -9,9 +9,6 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     gap: 24px;
     padding: 71px 32px;
     overflow: hidden;
@@ -116,6 +113,8 @@ body {
     body {
         padding: 164px;
         display: grid;
+        justify-content: center;
+        align-items: center;
         grid-template-columns: repeat(4, 255px);
         grid-template-rows: 282px 266px;
     }
